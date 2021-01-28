@@ -10,6 +10,7 @@ namespace Wrapper {
 	public:
 		MathWrapper();
 		MathWrapper(double a, double b);
+		~MathWrapper();
 
 		double AddWrapper();
 		double AddWrapper(double a, double b);

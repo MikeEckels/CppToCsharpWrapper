@@ -9,6 +9,10 @@ Wrapper::MathWrapper::MathWrapper(double a, double b) {
 	basicMathClass = new BasicMath(a, b);
 }
 
+Wrapper::MathWrapper::~MathWrapper() {
+	delete basicMathClass;
+}
+
 double Wrapper::MathWrapper::AddWrapper() {
 	return basicMathClass->Add();
 }
