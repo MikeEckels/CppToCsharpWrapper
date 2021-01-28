@@ -8,6 +8,7 @@ private:
 public:
 	BasicMath();
 	BasicMath(double a, double b);
+	~BasicMath();
 
 	double Add();
 	double Add(double a, double b);

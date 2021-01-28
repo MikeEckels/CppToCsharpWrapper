@@ -4,6 +4,8 @@ BasicMath::BasicMath() {}
 
 BasicMath::BasicMath(double a, double b) : _a{ a }, _b{ b } {}
 
+BasicMath::~BasicMath() {};
+
 double BasicMath::Add() {
 	return(this->_a + this->_b);
 }
